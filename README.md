@@ -3,7 +3,6 @@ Source code for the paper: Daberdaku S. 2019. Identification of protein pockets 
 
 ## Prerequisites
 * g++ >= v6.3.0 (with openmp support)
-* CMake >= v3.1
 * Boost C++ Libraries >= v1.55.0 (required libraries: regex system program_options thread)
 * Python 2.7
 * biopython https://biopython.org/
@@ -12,8 +11,6 @@ Source code for the paper: Daberdaku S. 2019. Identification of protein pockets 
 ```bash
 git clone git@github.com:sebastiandaberdaku/PoCavEDT.git
 cd PoCavEDT
-cd bin
-cmake ../src
 make all
 ```
 
