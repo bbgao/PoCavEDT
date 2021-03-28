@@ -12,7 +12,7 @@ Source code for the paper: Daberdaku S. 2019. Identification of protein pockets 
 ```bash
 git clone git@github.com:sebastiandaberdaku/PoCavEDT.git
 cd PoCavEDT
-mkdir bin && cd bin
+cd bin
 cmake ../src
 make all
 ```
